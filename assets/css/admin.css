@@ -1,0 +1,50 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+td:first-child,
+td:last-child {
+    width: 10%;
+}
+td:nth-child(2) {
+    width: 60%;
+}
+
+
+@media only screen and (max-width: 1023px) {
+    .container2 {
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .container3 {
+        margin-left: 0;
+        margin-right: 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .mainContainer {
+        padding: 10px;
+        border-radius: 4px;
+        height: auto;
+    }
+    
+}
+
+@media only screen and (min-width: 1920px) {
+    .container2 {
+        margin-top: 100px;
+        margin-left: 450px;
+        margin-right: 450px;
+    }
+}
